@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio 1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        
+        <div class="menu" id="menu1">
+            <i class="fas fa-bars" id="bar" title="Menu"></i>
+            <ul class="ul">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Personal Life</a></li>
+                <li><a href="#">Experience</a></li>
+                <li><a href="#">Education</a></li>
+                <li><a href="#">Youtube Channel</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+            </ul>
+        </div>
+        <div class="side">
+            <img src="image1.jpg" class="image1">
+            <h1>-No angel is coming to work on our dreams.If we won't,then who will?</h1>
+            <div class="line">
+
+            </div>
+            <div class="ri8">
+                <img src="image4.jpg" class="image4">
+                <h2>AMAN DHATTARWAL</h2>
+                <h3>Young TEDx speaker and #1 Online JEE Educator Founder of 5 Youtube Channels with 3.5 million young hustlers.</h3>
+                <button class="btn" id="btn1">About the budding developer</button>
+            </div>
+        </div>
+    </header>
+</body>
+<script>
+    let nav=document.getElementById('bar');
+    let menu=document.getElementById('menu1');
+    nav.addEventListener('click',fun);
+    menu.style.left="-250px";
+    function fun(){
+        if(menu.style.left=="-250px"){
+     menu.style.left="0px";
+     nav.style.color="white";
+        }
+     else{
+     menu.style.left="-250px";
+     nav.style.color="black";
+     }
+    }
+</script>
+</html>
